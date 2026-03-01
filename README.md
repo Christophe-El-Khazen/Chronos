@@ -1,4 +1,4 @@
-# ⏳ TimeTravel Agency - Interactive Webapp
+# ⏳ TimeTravel Agency - Interactive Webapp - EL KHAZEN Christophe
 
 **TimeTravel Agency** est une application web moderne et interactive qui permet à ses clients d'explorer et de réserver des voyages temporels de luxe. Ce projet a été développé dans le cadre d'un travail de groupe (4 personnes) avec une évaluation individuelle.
 
