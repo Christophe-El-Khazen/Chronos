@@ -9,14 +9,13 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-black/40 z-10" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/60 z-10" />
-        <motion.img
-          initial={{ scale: 1.1 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 20, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
-          src="https://picsum.photos/seed/timetravel/1920/1080?blur=2"
-          alt="Atmosphère Voyage Temporel"
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          src="/images/Trailer.mp4"
           className="w-full h-full object-cover opacity-60"
-          referrerPolicy="no-referrer"
         />
       </div>
 
@@ -30,7 +29,7 @@ export function Hero() {
           <span className="inline-block py-1 px-3 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-sm font-medium mb-6 tracking-wider uppercase">
             Est. 2050 • Services Temporels Premium
           </span>
-          
+
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight font-serif">
             Voyagez Au-Delà <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-500 to-amber-200 bg-[length:200%_auto] animate-gradient">
@@ -39,7 +38,7 @@ export function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Découvrez l'élégance du Paris de 1889, la puissance brute du Crétacé, 
+            Découvrez l'élégance du Paris de 1889, la puissance brute du Crétacé,
             ou la renaissance artistique de Florence en 1504. Votre voyage vous attend.
           </p>
 
