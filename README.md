@@ -19,7 +19,7 @@
 - **Styling** : Tailwind CSS v4
 - **Animations** : Motion (Framer Motion)
 - **Icônes** : Lucide React
-- **IA** : Google Gemini API (`@google/genai`)
+- **IA** : Google Gemini API (`@google/genai`), nano banana pour les images
 - **Routage** : React Router DOM v7
 
 ## 🚀 Installation et Lancement en Local
